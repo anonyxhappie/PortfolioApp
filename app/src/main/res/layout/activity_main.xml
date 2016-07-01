@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/background"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.13">
+
+            <TextView
+                android:text="@string/my_apps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@color/darkblue_text"
+                android:textSize="25dp"
+                android:id="@+id/textView" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.89">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/app1"
+                android:tag="@string/tag_app1"
+                android:id="@+id/bt1"
+                android:background="@color/orange_button"
+                android:onClick="clickFunc"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/app2"
+                android:tag="@string/tag_app2"
+                android:id="@+id/bt2"
+                android:background="@color/orange_button"
+                android:onClick="clickFunc"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/app3"
+                android:tag="@string/tag_app3"
+                android:id="@+id/bt3"
+                android:background="@color/orange_button"
+                android:onClick="clickFunc"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/app4"
+                android:tag="@string/tag_app4"
+                android:id="@+id/bt4"
+                android:background="@color/orange_button"
+                android:onClick="clickFunc"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/app5"
+                android:tag="@string/tag_app5"
+                android:id="@+id/bt5"
+                android:background="@color/orange_button"
+                android:onClick="clickFunc"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="@string/app6"
+                android:tag="@string/tag_app6"
+                android:id="@+id/bt6"
+                android:background="@color/red_button"
+                android:onClick="clickFunc"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
